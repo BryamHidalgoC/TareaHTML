@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryam Hidalgo Castro</title>
+    <style>
+        form input {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="radio"] {
+            display: inline;
+        }
+        select {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registro en nuestras tiendas</h1>
+    <form action="">
+        <label for="nombre">Nombre de usuario</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ej: luis"><br>
+        <label for="Email">Email</label>
+        <input type="text" id="Email" name="Email" placeholder="Ej: luis@gmail.com">
+        <br>
+        <label for="Edad">Edad</label>
+        <input type="Edad" id="Edad" name="Edad" placeholder="Ej: 21">
+        <br>
+        <label for="Género">Género:</label><br>
+        <input type="radio" id="masculino" name="Género" value="masculino">
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="Femenino" name="Género" value="Femenino">
+        <label for="Femenino">Femenino</label><br><br>
+        <label for="Recomendado">Recomendado por:</label><br>
+        <select name="Recomendado" id="Recomendado">
+            <option value="Google">Google</option>
+            <option value="Red Social">Red Social</option>
+            <option value="Televisión">Televisión</option>
+            <option value="Otro">Otro</option>
+        </select>
+        <label for="Comentarios">Comentarios</label><br>
+        <textarea name="Comentarios" id="Comentarios" cols="30" rows="5"></textarea><br><br>
+        <label for="Acepto">Acepto Terminos y Condiciones</label>
+        <input type="checkbox" id="Acepto" name="Acepto"><br>
+        <input type="submit" value="Registrar">
+    </form>
+</body>
+</html>
